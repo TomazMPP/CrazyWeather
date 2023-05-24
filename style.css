@@ -1,0 +1,237 @@
+body {
+    background-color: #ededed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+    color: #81b29a;
+    font-size: 100px;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 35px;
+    border-radius: 15px;
+    padding-left: 10px;
+    border: 0px;
+}
+
+.button-1 {
+    background-color: #e0421a;
+    border-radius: 15px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 220px;
+}
+
+.button-1:hover,
+.button-1:focus {
+    background-color: #993d25;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #e17a5f;
+    margin-bottom: 100px;
+    font-size: 35px;
+    max-width: 100%;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+    margin-top: 10px;
+}
+
+section {
+    background: #e17a5f;
+  flex-direction: column;
+  margin-top: 100px;
+  height: 650px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 900px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-margin {
+    margin-bottom: 550px;
+}
+
+p#foot {
+    font-size: 20px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    input[type=text] {
+        width: 200px;
+    }
+
+    .button-1 {
+        width: 180px;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    section {
+        height: auto;
+        width: 90%;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        max-height: 100%;
+    }
+
+    .container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main {
+        margin-left: 80px;
+    }
+
+    section {
+        width: 900px;
+        margin-right: 50px;
+    }
+
+    footer {
+        margin-top: auto;
+        margin-bottom: 50px;
+    }
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.temperature {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+    margin-top: 0px;
+}
+
+.description{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.details > div{
+    padding: 20px;
+    background-color: #81b29ad2;
+    margin: 10px;
+    flex: 1;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    max-width: 230px;
+    color: white;
+    margin-bottom: 0px;
+}
+  
+h5 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    font-size: 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-container input[type=text] {
+    width: 300px;
+    height: 35px;
+    border-radius: 15px;
+    padding-left: 10px;
+    border: 0px;
+    margin-right: 10px;
+  }

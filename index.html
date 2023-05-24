@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrazyWeather</title>
+    <meta name="description" content="Web application that the user can check the weather of any city in the world">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Poppins:wght@100;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+        <h1>CrazyWeather</h1>
+        <p>Check the weather of any city in the world!</p>
+        <img src="assets/img/girl.png">
+    </main>
+    <section>
+        <h3>Enter the city you want to check</h3>
+
+        <div class="input-container">
+        <input type="text" name="city" id="cityName" placeholder="Example: London">
+        <button class="button-1" role="button" id="checkbutton">Get Weather!</button>
+            </div>
+        <div id="weather-data">
+            <div class="icon"></div>
+            <div class="temperature"></div>
+            <div class="description"></div>
+            <div class="details">
+                <div>Feels like: <span id="feelslike"></span></div>
+                <div>Humidity: <span id="humidity"></span></div>
+                <div>Wind speed: <span id="windspeed"></span></div>
+            </div>
+        </div>
+        <div id="error-message"></div>
+    </section>
+
+     </div>
+
+     <footer class="footer-margin">
+        <a href="https://github.com/TomazMPP" target="_blank"><p id="foot">&copy; TomazMPP</a> / <a href="https://github.com/TomazMPP/CrazyWeather" target="_blank">Gihub Repository</p></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
