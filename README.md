@@ -1,6 +1,6 @@
 <h1 align="center"><img src="/assets/img/logou.png" width="400px"></h1>
 <p align="center">
-<a href="https://tomazmpp.github.io/CrazyWeather/" target="_blank">✨ Published version ✨</a>
+<a href="https://crazy-weather.vercel.app" target="_blank">✨ Published version ✨</a>
 </p>
 <br>
 
